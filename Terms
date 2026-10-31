@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mephistopheles — Terms of Service</title>
+<style>
+  :root { --bg:#14090b; --card:#1f1013; --text:#ece3e4; --muted:#a8999b; --accent:#c0392b; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 20px 80px; }
+  h1 { font-size:2rem; margin:0 0 4px; }
+  h2 { margin-top:2rem; color:var(--accent); font-size:1.2rem; }
+  .muted { color:var(--muted); font-size:.9rem; }
+  a { color:#e57373; }
+  nav a { margin-right:14px; }
+  code { background:var(--card); padding:2px 6px; border-radius:4px; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a></nav>
+  <h1>Terms of Service</h1>
+  <p class="muted">Mephistopheles (Discord bot) · Last updated: October 31, 2026</p>
+
+  <p>By adding or using Mephistopheles ("the Bot"), you agree to these terms. If you do not agree, please do not use the Bot.</p>
+
+  <h2>1. What the Bot is</h2>
+  <p>The Bot is a free, non-commercial hobby project themed after Limbus Company by Project Moon. It offers games, a gacha system, mining, a lottery, PvP, a Mirror Dungeon and other fun commands. It is not affiliated with, endorsed by, or sponsored by Project Moon or Discord.</p>
+
+  <h2>2. Ahn and items have no real-world value</h2>
+  <p>Ahn, IDs, E.G.O, serials ("Exclusive") and all other in-bot items are <strong>virtual and for fun only</strong>. They have no monetary value, cannot be bought, sold or traded for real money, and can be changed, reset or removed at any time (for example for balance changes, bug fixes or abuse). Gacha, lottery, coin flips, blackjack and PvP bets use only virtual Ahn — <strong>no real-money gambling</strong>.</p>
+
+  <h2>3. Acceptable use</h2>
+  <p>You agree not to:</p>
+  <ul>
+    <li>Exploit bugs, use scripts or automation, or use multiple accounts to gain unfair advantages.</li>
+    <li>Sell or trade Ahn or items for real money or other real-world goods.</li>
+    <li>Harass other users, spam commands, or abuse the Bot to disrupt servers.</li>
+    <li>Attack, overload or try to gain unauthorized access to the Bot or its database.</li>
+    <li>Break Discord's Terms of Service or Community Guidelines.</li>
+  </ul>
+  <p>If you find a bug or security issue, please report it to the owner instead of abusing it.</p>
+
+  <h2>4. Enforcement</h2>
+  <p>We may remove Ahn or items gained unfairly, reset accounts, or block users from the Bot at our discretion, with or without notice, if these terms are broken.</p>
+
+  <h2>5. Server admins</h2>
+  <p>Server admins are responsible for how the Bot is used in their server, including choosing the announcement channel with <code>/set_channel</code>.</p>
+
+  <h2>6. Availability and changes</h2>
+  <p>The Bot is provided "as is" and "as available." It may go offline, be under maintenance, lose data or change features at any time. We do not guarantee uptime or that your progress will always be preserved, although we try our best.</p>
+
+  <h2>7. Limitation of liability</h2>
+  <p>To the maximum extent allowed by law, the Bot's owner is not liable for any loss or damage (including loss of virtual items or Ahn) arising from your use of the Bot.</p>
+
+  <h2>8. Privacy</h2>
+  <p>How we handle data is explained in our <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <h2>9. Changes to these terms</h2>
+  <p>We may update these terms from time to time. Continuing to use the Bot after changes means you accept the updated terms.</p>
+
+  <h2>10. Contact</h2>
+  <p>Questions: contact the Bot owner on Discord — <strong>[YOUR DISCORD USERNAME]</strong>, or email <strong>[YOUR CONTACT EMAIL]</strong>.</p>
+</main>
+</body>
+</html>
