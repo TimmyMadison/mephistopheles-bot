@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mephistopheles — Privacy Policy</title>
+<style>
+  :root { --bg:#14090b; --card:#1f1013; --text:#ece3e4; --muted:#a8999b; --accent:#c0392b; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 20px 80px; }
+  h1 { font-size:2rem; margin:0 0 4px; }
+  h2 { margin-top:2rem; color:var(--accent); font-size:1.2rem; }
+  p, li { color:var(--text); }
+  .muted { color:var(--muted); font-size:.9rem; }
+  a { color:#e57373; }
+  nav a { margin-right:14px; }
+  code { background:var(--card); padding:2px 6px; border-radius:4px; }
+  table { width:100%; border-collapse:collapse; margin:12px 0; background:var(--card); border-radius:8px; overflow:hidden; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid #2d1a1d; vertical-align:top; font-size:.95rem; }
+  th { color:var(--muted); font-weight:600; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="index.html">Home</a><a href="terms.html">Terms of Service</a></nav>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Mephistopheles (Discord bot) · Last updated: October 31, 2026</p>
+
+  <p>Mephistopheles ("the Bot") is a hobby Discord bot with games, a gacha system, mining and more, themed after Limbus Company. This policy explains what data the Bot stores, why, and how you can have it deleted. We keep it to the minimum the Bot needs to work.</p>
+
+  <h2>1. Data we store</h2>
+  <table>
+    <tr><th>Data</th><th>Why we store it</th></tr>
+    <tr><td>Your Discord user ID</td><td>To link your Ahn balance, items and progress to you.</td></tr>
+    <tr><td>Ahn balance, inventory (IDs / E.G.O, values, serials), gacha stats</td><td>Economy and collection features.</td></tr>
+    <tr><td>Game stats (Hangman, Wordle), mining upgrades and totals</td><td>To show your stats and keep your upgrades.</td></tr>
+    <tr><td>Daily claim time and daily streak</td><td>To run <code>/daily</code> and streak bonuses.</td></tr>
+    <tr><td>Vote timestamps and bonus expiry</td><td>To give voting rewards.</td></tr>
+    <tr><td>Mirror Dungeon runs and cooldowns</td><td>To run dungeon progress even if the Bot restarts.</td></tr>
+    <tr><td>Reminders you create (name, duration, keyword, channel ID)</td><td>To send your reminders.</td></tr>
+    <tr><td>Server (guild) ID and chosen announcement channel ID</td><td>To post new-content announcements where a server admin asked.</td></tr>
+    <tr><td>Maintenance status and lottery state (not personal)</td><td>Bot operation.</td></tr>
+  </table>
+
+  <h2>2. Message content</h2>
+  <p>The Bot uses Discord's Message Content intent only to run text-based features: guessing letters in Hangman, words in Wordle, Nối Từ Việt Nam turns, and reminder keywords. In those channels the Bot reads messages that are part of an active game or reminder. Message content is <strong>not saved</strong>, except for the reminder keyword you choose when creating a reminder, and it is never used for anything else.</p>
+
+  <h2>3. Data we do NOT collect</h2>
+  <ul>
+    <li>No email addresses, real names, passwords, payment details or location.</li>
+    <li>No private messages (the Bot only DMs you to say thank you for voting or when a reminder cannot be sent in a channel).</li>
+    <li>No selling or sharing of your data with advertisers.</li>
+  </ul>
+
+  <h2>4. Where data is stored</h2>
+  <p>Data is stored in a MongoDB Atlas database used only by the Bot. The Bot's web server also receives vote notifications from the bot list site where you vote (for example discordbotlist.com), which contain your Discord user ID.</p>
+
+  <h2>5. How long we keep it</h2>
+  <p>We keep your data while the Bot is in use so your progress is not lost. Finished Mirror Dungeon runs and expired reminders may remain in the database until cleaned up. You can ask us to delete your data at any time (see below).</p>
+
+  <h2>6. Your choices and deletion requests</h2>
+  <p>You can ask to see or delete all data linked to your Discord user ID. Contact us using the details below and include your Discord user ID. We will delete it within a reasonable time. Deleting your data resets your balance, items and progress to zero and this cannot be undone.</p>
+
+  <h2>7. Children</h2>
+  <p>The Bot is intended for people who meet Discord's minimum age requirement for their country. We do not knowingly collect data from anyone under that age.</p>
+
+  <h2>8. Security</h2>
+  <p>We take reasonable steps to protect the data, such as keeping secrets in environment variables and restricting owner-only commands. No system is perfectly secure, and we cannot guarantee absolute security.</p>
+
+  <h2>9. Changes</h2>
+  <p>We may update this policy as the Bot changes. The date at the top shows the latest version.</p>
+
+  <h2>10. Contact</h2>
+  <p>Questions or deletion requests: contact the Bot owner on Discord — <strong>[sample_c]</strong>, or email <strong>[minhkhanhk843@gmail.com]</strong>.</p>
+</main>
+</body>
+</html>
