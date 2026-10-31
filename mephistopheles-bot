@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mephistopheles — Discord Bot</title>
+<style>
+  :root { --bg:#14090b; --card:#1f1013; --text:#ece3e4; --muted:#a8999b; --accent:#c0392b; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:56px 20px 80px; text-align:center; }
+  h1 { font-size:2.4rem; margin:0 0 6px; }
+  .tag { color:var(--muted); font-style:italic; margin-bottom:28px; }
+  .card { background:var(--card); border-radius:10px; padding:20px; text-align:left; margin:18px 0; }
+  a { color:#e57373; }
+  .links a { display:inline-block; margin:6px 10px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>🚌 Mephistopheles</h1>
+  <p class="tag">"The bus that carries Sinners through the City."</p>
+
+  <div class="card">
+    <p>Mephistopheles is a free Discord bot themed after Limbus Company: gacha for IDs and E.G.O, mining, Mirror Dungeon, PvP coin clashes, Hangman, Wordle, Nối Từ, lottery, blackjack and more. Everything uses virtual Ahn — no real money involved.</p>
+    <p>Type <code>/help</code> in Discord to see every command.</p>
+  </div>
+
+  <p class="links">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+  </p>
+  <p style="color:var(--muted);font-size:.85rem">Not affiliated with Project Moon or Discord.</p>
+</main>
+</body>
+</html>
